@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Bash script to display lines containing 'bash'
+#shellcheck disable=SC2009
+ps aux -e --forest | grep "bash"
