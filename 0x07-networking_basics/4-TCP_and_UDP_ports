@@ -1,0 +1,3 @@
+#!/bin/bash
+#Show listening sockets
+netstat -lp
