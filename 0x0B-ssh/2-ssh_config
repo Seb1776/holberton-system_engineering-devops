@@ -1,0 +1,10 @@
+# This script configure a temp ssh_config file for client
+
+Host *
+	PasswordAuthentication no
+	IdentifyFile ~/.ssh/holberton
+	SendEnv LANG LC_*
+	HashKnownHosts yes
+	GSSAPIAuthentication yes
+	GSSAPIDelegateCredentials no
+#   Port 22
