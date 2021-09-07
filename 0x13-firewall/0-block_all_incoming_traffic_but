@@ -2,6 +2,7 @@
 # Install Firewall in servers
 sudo apt-get -y update
 sudo apt-get -y install ufw
+sudo ufw disable
 
 # Reset rules
 sudo ufw default deny incoming
