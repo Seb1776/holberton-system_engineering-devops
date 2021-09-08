@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Save a user and run command as that user
+sudo -u "$1" whoami
