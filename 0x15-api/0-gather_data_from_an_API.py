@@ -5,7 +5,7 @@ import requests
 from sys import argv
 
 if __name__ == '__main__':
-    url = 'https://jsonplaceholder.typicode.com'
+    url = 'https://jsonplaceholder.typicode.com/'
 
     user = requests.get(url + 'users/{}'.format(int(argv[1]))).json()
     all = requests.get(url + 'todos?userId={}'.format(int(argv[1]))).json()
