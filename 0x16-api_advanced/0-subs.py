@@ -5,9 +5,8 @@ import requests
 
 
 def number_of_subscribers(subreddit):
-    """[get a parameter of subreddit]
-        subreddit: param to argv[1]
-    """
+    """Get subs from reddit"""
+
     url = 'http://www.reddit.com/r/{}/about.json'.format(subreddit)
 
     header = {
